@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="" />
+    <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/MovimientoDinero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empleado.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/JBF25/OneDrive/Jbf/MINTIC/Ciclo 3/CompanyJ3C/J3C"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JBF25/OneDrive/Jbf/MINTIC/Ciclo 3/CompanyJ3C/J3C&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CompanyJ3CApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.J3C.CompanyJ3C.CompanyJ3CApplication" />
