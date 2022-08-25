@@ -2,46 +2,46 @@ package com.J3C.CompanyJ3C;
 
 public class Empresa
 {
-    String nombre_Empresa,direccion;
-    int telefono,nit;
+    String nombreEmpresa,direccionEmpresa;
+    int telefonoEmpresa,nitEmpresa;
 
-    public Empresa (String nombre_Empresa,String direccion, int telefono, int nit)
+    public Empresa (String nombreEmpresa,String direccionEmpresa, int telefonoEmpresa, int nitEmpresa)
     {
-        this.nombre_Empresa=nombre_Empresa;
-        this.direccion=direccion;
-        this.telefono=telefono;
-        this.nit=nit;
+        this.nombreEmpresa=nombreEmpresa;
+        this.direccionEmpresa=direccionEmpresa;
+        this.telefonoEmpresa=telefonoEmpresa;
+        this.nitEmpresa=nitEmpresa;
     }
 
-    public String getNombre_Empresa() {
-        return nombre_Empresa;
+    public String getNombreEmpresa() {
+        return nombreEmpresa;
     }
 
-    public void setNombre_Empresa(String nombre_Empresa) {
-        this.nombre_Empresa = nombre_Empresa;
+    public void setNombreEmpresa(String nombreEmpresa) {
+        this.nombreEmpresa = nombreEmpresa;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getDireccionEmpresa() {
+        return direccionEmpresa;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setDireccionEmpresa(String direccionEmpresa) {
+        this.direccionEmpresa = direccionEmpresa;
     }
 
-    public int getTelefono() {
-        return telefono;
+    public int getTelefonoEmpresa() {
+        return telefonoEmpresa;
     }
 
-    public void setTelefono(int telefono) {
-        this.telefono = telefono;
+    public void setTelefonoEmpresa(int telefonoEmpresa) {
+        this.telefonoEmpresa = telefonoEmpresa;
     }
 
-    public int getNit() {
-        return nit;
+    public int getNitEmpresa() {
+        return nitEmpresa;
     }
 
-    public void setNit(int nit) {
-        this.nit = nit;
+    public void setNitEmpresa(int nitEmpresa) {
+        this.nitEmpresa = nitEmpresa;
     }
 }

@@ -1,9 +1,13 @@
 package com.J3C.CompanyJ3C;
 
-public class MovimientoDinero
+public class MovimientoDinero extends Empleado
 {
     double montoMovimiento;
     String conceptoMovimiento;
+
+    public MovimientoDinero(String nombreEmpresa, String direccionEmpresa, int telefonoEmpresa, int nitEmpresa, String nombreEmpleado, String correoEmpleado, String rolEmpleado) {
+        super(nombreEmpresa, direccionEmpresa, telefonoEmpresa, nitEmpresa, nombreEmpleado, correoEmpleado, rolEmpleado);
+    }
 
 
     public double crearMontos(double montoMovimiento)

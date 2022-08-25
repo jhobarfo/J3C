@@ -2,37 +2,36 @@ package com.J3C.CompanyJ3C;
 
 public class Empleado extends Empresa
 {
-    String nombre_empleado,correo_empleado,rol_empleado;
+    String nombreEmpleado,correoEmpleado,rolEmpleado;
 
-    public Empleado(String nombre_Empresa, String direccion, int telefono, int nit,String nombre_empleado, String correo_empleado, String rol_empleado)
-    {
-        super(nombre_Empresa, direccion, telefono, nit);
-        this.correo_empleado=correo_empleado;
-        this.nombre_empleado=nombre_empleado;
-        this.correo_empleado=correo_empleado;
+    public Empleado(String nombreEmpresa, String direccionEmpresa, int telefonoEmpresa, int nitEmpresa, String nombreEmpleado, String correoEmpleado, String rolEmpleado) {
+        super(nombreEmpresa, direccionEmpresa, telefonoEmpresa, nitEmpresa);
+        this.nombreEmpleado=nombreEmpleado;
+        this.correoEmpleado=correoEmpleado;
+        this.rolEmpleado=rolEmpleado;
     }
 
-    public String getNombre_empleado() {
-        return nombre_empleado;
+    public String getNombreEmpleado() {
+        return nombreEmpleado;
     }
 
-    public void setNombre_empleado(String nombre_empleado) {
-        this.nombre_empleado = nombre_empleado;
+    public void setNombreEmpleado(String nombreEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
     }
 
-    public String getCorreo_empleado() {
-        return correo_empleado;
+    public String getCorreoEmpleado() {
+        return correoEmpleado;
     }
 
-    public void setCorreo_empleado(String correo_empleado) {
-        this.correo_empleado = correo_empleado;
+    public void setCorreoEmpleado(String correoEmpleado) {
+        this.correoEmpleado = correoEmpleado;
     }
 
-    public String getRol_empleado() {
-        return rol_empleado;
+    public String getRolEmpleado() {
+        return rolEmpleado;
     }
 
-    public void setRol_empleado(String rol_empleado) {
-        this.rol_empleado = rol_empleado;
+    public void setRolEmpleado(String rolEmpleado) {
+        this.rolEmpleado = rolEmpleado;
     }
 }
