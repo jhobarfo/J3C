@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="">
+    <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="Ajuste clases modificando atributos estilizado como camelCase">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/MovimientoDinero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/CompanyJ3CApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/CompanyJ3CApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/MovimientoDinero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/J3C" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +25,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Empleado.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/MovimientoDinero.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,19 +44,21 @@
     </option>
   </component>
   <component name="ProjectId" id="2DpIARXG2AoiReob5t3SINCFOkP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JBF25/OneDrive/Jbf/MINTIC/Ciclo 3/CompanyJ3C/J3C&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/JBF25/OneDrive/Jbf/MINTIC/Ciclo 3/CompanyJ3C"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CompanyJ3CApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.J3C.CompanyJ3C.CompanyJ3CApplication" />
@@ -94,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajuste clases modificando atributos estilizado como camelCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste clases modificando atributos estilizado como camelCase" />
   </component>
 </project>
