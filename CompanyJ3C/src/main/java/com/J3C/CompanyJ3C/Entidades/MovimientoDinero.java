@@ -1,4 +1,4 @@
-package Entidades;
+package com.J3C.CompanyJ3C.Entidades;
 
 import javax.persistence.*;
 
