@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="Ajuste clases modificando atributos estilizado como camelCase">
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpresaControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpresaServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

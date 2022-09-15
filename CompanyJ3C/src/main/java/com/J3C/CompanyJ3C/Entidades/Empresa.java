@@ -1,5 +1,6 @@
 package com.J3C.CompanyJ3C.Entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,6 +29,7 @@ public class Empresa {
     @Column(name = "direccionEmpresa")
     private String direccionEmpresa;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "empresa")
     private List<Empleado> empleados;
 

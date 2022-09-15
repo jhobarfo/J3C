@@ -79,6 +79,10 @@ public class EmpleadoServicio {
             if (empleado.getNombreEmpleado()!=null){
                 empleado1.setNombreEmpleado(empleado.getNombreEmpleado());
             }
+            if (empleado.getEmpresa()!=null)
+            {
+                empleado1.setEmpresa(empleado.getEmpresa());
+            }
             this.empleadoRepositorio.save(empleado1);
             Respuesta respuesta = new Respuesta();
             respuesta.setCodigo(200);
