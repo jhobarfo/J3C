@@ -1,6 +1,7 @@
 package com.J3C.CompanyJ3C.controllers;
 
 import com.J3C.CompanyJ3C.Entidades.Empleado;
+import com.J3C.CompanyJ3C.Entidades.Empresa;
 import com.J3C.CompanyJ3C.Entidades.MovimientoDinero;
 import com.J3C.CompanyJ3C.services.MovimientoDineroServicio;
 import com.J3C.CompanyJ3C.services.Respuesta;
@@ -50,4 +51,9 @@ public class MovimientoDineroControlador {
             return respuesta;
         }
     }
+    @GetMapping("/enterprises/{id}/movimiento")
+    public MovimientoDinero consultaME(@PathVariable Long id){
+        return movimientoDineroServicio.getMovimientosByEmpresaId(id);
+    }
+
 }

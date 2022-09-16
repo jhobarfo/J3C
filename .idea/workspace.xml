@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="Ajuste clases modificando atributos estilizado como camelCase">
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/MovimientoDineroControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/MovimientoDineroRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/MovimientoDineroServicio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/MovimientoDinero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Enum_RolName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpresaControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpresaControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/MovimientoDineroControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/MovimientoDineroControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/EmpresaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/EmpresaRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/MovimientoDineroRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/MovimientoDineroRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpresaServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpresaServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/MovimientoDineroServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/MovimientoDineroServicio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

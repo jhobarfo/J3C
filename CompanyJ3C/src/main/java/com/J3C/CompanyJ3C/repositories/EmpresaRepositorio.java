@@ -6,4 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EmpresaRepositorio extends JpaRepository<Empresa,Long> {
+
+    public Empresa findBymovimientoDinerosId(Long id);
+
 }
+

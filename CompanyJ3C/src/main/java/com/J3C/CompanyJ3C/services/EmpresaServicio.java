@@ -65,4 +65,8 @@ public class EmpresaServicio {
         }
     }
 
+    public Empresa getEmpresaByMovimientoId(Long id){
+        return empresaRepositorio.findBymovimientoDinerosId(id);
+    }
+
 }

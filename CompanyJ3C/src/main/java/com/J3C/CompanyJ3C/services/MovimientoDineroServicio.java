@@ -5,6 +5,7 @@ import com.J3C.CompanyJ3C.Entidades.MovimientoDinero;
 import com.J3C.CompanyJ3C.repositories.MovimientoDineroRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 import java.util.Optional;
@@ -65,5 +66,9 @@ public class MovimientoDineroServicio {
         {
             throw new Exception("Movimiento no se actualizó porque no existe");
         }
+    }
+
+    public MovimientoDinero getMovimientosByEmpresaId(Long id){
+        return movimientoDineroRepositorio.findByempresaMId(id);
     }
 }

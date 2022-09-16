@@ -20,7 +20,7 @@ import java.util.List;
 public class Empleado {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    //@Column(name = "id", nullable = false)
+    @Column(name = "id", nullable = false)
     private Long id;
     @Column(name = "nombreEmpleado")
     private String nombreEmpleado;
@@ -36,6 +36,8 @@ public class Empleado {
     @JsonIgnore
     @OneToOne(mappedBy = "empleado")
     private Perfil perfil;
+
+
 
     @JsonIgnore
     @OneToMany(mappedBy = "empleadoM")

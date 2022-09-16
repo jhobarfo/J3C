@@ -47,6 +47,10 @@ public class EmpresaControlador {
             return respuesta;
         }
     }
-
-
+    /*
+    @GetMapping("/enterprises/{id}/movimiento")
+    public Empresa consultaEM(@PathVariable Long id){
+        return empresaServicio.getEmpresaByMovimientoId(id);
+    }
+*/
 }
