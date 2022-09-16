@@ -32,5 +32,8 @@ public class Empresa {
     @JsonIgnore
     @OneToMany(mappedBy = "empresa")
     private List<Empleado> empleados;
+    @JsonIgnore
+    @OneToMany(mappedBy = "empresaM")
+    private List<MovimientoDinero> MovimientoDinero;
 
 }

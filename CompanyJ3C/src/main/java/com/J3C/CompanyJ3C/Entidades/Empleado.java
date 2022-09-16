@@ -37,4 +37,8 @@ public class Empleado {
     @OneToOne(mappedBy = "empleado")
     private Perfil perfil;
 
+    @JsonIgnore
+    @OneToMany(mappedBy = "empleadoM")
+    private List<MovimientoDinero> movimientoDineros;
+
 }
