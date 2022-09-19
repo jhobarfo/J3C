@@ -50,7 +50,7 @@ public class EmpresaServicio {
                 empresa1.setNombreEmpresa(empresa.getNombreEmpresa());
             }
             if (empresa.getTelefonoEmpresa()!=null){
-                empresa1.setTelefonoEmpresa(empresa.getDireccionEmpresa());
+                empresa1.setTelefonoEmpresa(empresa.getTelefonoEmpresa());
             }
             this.empresaRepositorio.save(empresa1);
             Respuesta respuesta = new Respuesta();
