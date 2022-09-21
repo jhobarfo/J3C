@@ -43,4 +43,16 @@ public class Empleado {
     @OneToMany(mappedBy = "empleadoM")
     private List<MovimientoDinero> movimientoDineros;
 
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "id=" + id +
+                ", nombreEmpleado='" + nombreEmpleado + '\'' +
+                ", correoEmpleado='" + correoEmpleado + '\'' +
+                ", rolEmpleado=" + rolEmpleado +
+                ", empresa=" + empresa +
+                ", perfil=" + perfil +
+                ", movimientoDineros=" + movimientoDineros +
+                '}';
+    }
 }
