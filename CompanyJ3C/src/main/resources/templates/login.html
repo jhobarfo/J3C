@@ -22,12 +22,15 @@
                 <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-                <input type="password" th:field="*{nombreEmpleado}" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" th:field="*{claveEmpleado}" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
             </div>
             <div>
                 <input type="checkbox" aria-label="Recordar">
                 <label>Recordarme</label>
+            </div>
+            <div>
+                <a  href="/oauth2/authorization/google">Google</a>
             </div>
             <div>
                 <button class="btn btn-primary" type="submit">Iniciar Sesión</button>

@@ -26,9 +26,12 @@ public class Empleado {
     private String nombreEmpleado;
     @Column(name="correoEmpleado")
     private String correoEmpleado;
+    @Column(name="claveEmpleado")
+    private String claveEmpleado;
     @Enumerated(EnumType.STRING)
     @Column(name = "rolEmpleado")
     private EmpleadoEnum rolEmpleado;
+
 
     @ManyToOne
     private Empresa empresa;
@@ -49,6 +52,7 @@ public class Empleado {
                 "id=" + id +
                 ", nombreEmpleado='" + nombreEmpleado + '\'' +
                 ", correoEmpleado='" + correoEmpleado + '\'' +
+                ", claveEmpleado='" + claveEmpleado + '\'' +
                 ", rolEmpleado=" + rolEmpleado +
                 ", empresa=" + empresa +
                 ", perfil=" + perfil +

@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="Ajuste clases modificando atributos estilizado como camelCase">
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/seguridadconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/empleado.html" afterDir="false" />
+    <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="Ajuste servicio busqueda por correo y autenticación propia">
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/DatosGoogle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/MyUserDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/frontend/FrontEndControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/frontend/FrontEndControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/static/cancun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpleadoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpleadoControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/enums/EmpleadoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/enums/EmpleadoEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/EmpleadoRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/EmpleadoRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/seguridadconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/seguridadconfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -124,6 +128,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajuste clases modificando atributos estilizado como camelCase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste clases modificando atributos estilizado como camelCase" />
+    <MESSAGE value="Ajuste servicio busqueda por correo y autenticación propia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste servicio busqueda por correo y autenticación propia" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

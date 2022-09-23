@@ -2,7 +2,6 @@ package com.J3C.CompanyJ3C.services;
 
 import com.J3C.CompanyJ3C.Entidades.Empleado;
 import com.J3C.CompanyJ3C.repositories.EmpleadoRepositorio;
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +13,7 @@ import java.util.Optional;
 public class EmpleadoServicio {
     @Autowired
     private EmpleadoRepositorio empleadoRepositorio;
+
 
     public Empleado crearEmpleado(Empleado empleado){
         return this.empleadoRepositorio.save(empleado);
@@ -32,6 +32,10 @@ public class EmpleadoServicio {
         {
             return null;
         }
+    }
+    public Empleado getEmpleado(String correoEmpleado){
+        Empleado empleado=this.empleadoRepositorio.findByCorreoEmpleado(correoEmpleado);
+        return empleado;
     }
 
     public Respuesta deleteEmpleadoId(Long id){

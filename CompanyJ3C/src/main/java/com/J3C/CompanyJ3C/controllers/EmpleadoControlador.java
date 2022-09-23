@@ -24,12 +24,19 @@ public class EmpleadoControlador {
         return this.empleadoServicio.crearEmpleado(empleado);
 
     }
-    @GetMapping("/empleado/{id}")
+    /*@GetMapping("/empleado/{id}")
     public Empleado getEmpleadoId(@PathVariable Long id){
 
         return this.empleadoServicio.getEmpleadoId(id);
 
+    }*/
+    @GetMapping("/empleado/{id}")
+    public Empleado getEmpleado(@PathVariable String id){
+
+        return this.empleadoServicio.getEmpleado(id);
+
     }
+
     @DeleteMapping("/empleado/{id}")
     public Respuesta eliminarEmpleado(@PathVariable Long id){
         return this.empleadoServicio.deleteEmpleadoId(id);
