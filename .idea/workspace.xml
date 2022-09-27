@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc89812f-1570-48c8-a419-df8fee9536ee" name="Changes" comment="Ajuste servicio busqueda por correo y autenticación propia">
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/MyUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/DatosGoogle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/Ingreso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/j3c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_1_0_M1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/Entidades/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpleadoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/EmpleadoControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/frontend/FrontEndControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/controllers/frontend/FrontEndControlador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/enums/EmpleadoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/enums/EmpleadoEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/EmpleadoRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/repositories/EmpleadoRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/DatosGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/DatosGoogle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/seguridadconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/seguridad/seguridadconfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/java/com/J3C/CompanyJ3C/services/EmpleadoServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/static/Login.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyJ3C/src/main/resources/templates/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,6 +87,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JBF25\OneDrive\Jbf\MINTIC\Proyecto\CompanyJ3C\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JBF25\OneDrive\Jbf\MINTIC\Proyecto\CompanyJ3C\src\main\resources\templates" />
       <recent name="C:\Users\JBF25\OneDrive\Jbf\MINTIC\Proyecto\CompanyJ3C\src\main\resources\static" />
     </key>
   </component>

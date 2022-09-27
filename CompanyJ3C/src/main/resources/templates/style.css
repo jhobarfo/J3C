@@ -1,0 +1,170 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ header{
+     width: 100%;
+     height: 2em;
+     margin-top: 0em;
+     position: fixed;
+     z-index: 1;
+     background-color: #4384F3;
+     padding: 1.5em;
+ }
+ .container_menu{
+     max-width: 1920px;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+ }
+ .logo{
+     height: 100%;
+     display: flex;
+     align-items: center;
+ }
+ .logo img{
+     width: 6em;
+ }
+ .menu{
+     display: flex;
+     align-items: center;
+ }
+ .menu ul{
+     display: flex;
+ }
+ .menu ul li{
+     list-style: none;
+     margin-right: 2.25em;
+ }
+ .menu ul li a{
+     text-decoration: none;
+     font-size: 1em;
+     color: white;
+     text-transform: uppercase;
+ }
+ .menu nav img{
+     display: none;
+ }
+ .menu #bar_menu{
+     display: none;
+ }
+
+
+
+ .card-body{
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .card-body #img1{
+     width: 40%;
+     margin-top: 6.25em;
+     margin-bottom: 1.2em;
+ }
+ .form-control{
+     width: 8px;
+ }
+ .form-label{
+     font-size: 18px;
+ }
+
+ .form-outline{
+     width: 100%;
+     max-width: 600px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .form-outline .btn{
+   width: 1%;
+   padding: 0.5em 1em;
+   border: none;
+   background: rgb(100, 200, 255);
+   cursor: pointer;
+ }
+
+
+ .foot{
+     width: 75em;
+     background-color: #4384F3;
+     margin-top: 4em;
+ }
+ .foot .group1{
+     width: 100%;
+     max-width: 120em;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
+     padding: 45px, 0px;
+ }
+ .foot .group1 .box figure{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .foot .group1 .box figure img{
+     width: 10em;
+ }
+ .foot .group1 .box h2{
+     color: #fff;
+     margin-bottom: 1.563em;
+     font-size: 1.45em;
+     margin-top: 25px;
+ }
+ .foot .group1 .box p{
+     color: #efefef;
+     margin-bottom: 0.625em;
+     font-size: 1em;
+ }
+ .foot .group1 .red_social a{
+     display: inline-block;
+     text-decoration: none;
+     width: 1.5em;
+     height: 1.5em;
+     line-height: 1.5em;
+     color: #fff;
+     margin-right: 2em;
+     background-color: white;
+     text-align: center;
+     transition: all 300ms ease;
+ }
+ .foot .group1 .red_social a:hover{
+     background-color: aqua;
+ }
+ .foot .group2{
+     background-color: #fff;
+     padding: 15px 10px;
+     text-align: center;
+     color: #000;
+ }
+ .foot .group2 small{
+     font-size: 15px;
+ }
+
+
+ @media screen and (max-width:120em){
+     header{
+         padding: 2.0em;
+     }.container_cover{
+         background-position: 100%;
+         height:50em;
+         background-size: 1220px;
+     }.container_cover .text{
+         max-width: 50em;
+         margin-left: 2.5em;
+     }.foot{
+         width: 100%;
+         background-color: #4384F3;
+     }
+ }

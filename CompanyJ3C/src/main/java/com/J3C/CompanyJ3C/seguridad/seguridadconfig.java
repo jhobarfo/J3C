@@ -48,6 +48,11 @@ public class seguridadconfig extends WebSecurityConfigurerAdapter {
         .and()
         .oauth2Login()
         .loginPage("/login")
-        .successHandler(datosGoogle);
+        .successHandler(datosGoogle)
+
+        .and()
+        .logout()
+        .logoutUrl("/logout")
+        .logoutSuccessUrl("/login");
     }
 }

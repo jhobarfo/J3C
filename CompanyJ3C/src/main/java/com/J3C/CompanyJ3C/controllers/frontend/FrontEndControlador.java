@@ -26,6 +26,11 @@ public class FrontEndControlador {
         model.addAttribute("formularioLogin",new Empleado());
         return "login";
     }
+    @GetMapping("/ingreso")
+    public  String getIngreso(Model model){
+        model.addAttribute("formularioIngreso",new Empleado());
+        return "ingreso";
+    }
     @GetMapping("/crearempleado")
     public  String getempleado(Model model){
         model.addAttribute("formularioEmpleado",new Empleado());
